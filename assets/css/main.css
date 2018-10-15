@@ -39,6 +39,10 @@
   border-bottom: solid 1px #8b90948c;
 }
 
+#footer {
+  font-family: sans-serif;
+}
+
 #footer .content {
   display: flex;
   flex-direction: row;
@@ -46,7 +50,6 @@
 
 #footer h1 {
   font-weight: 300;
-  font-family: sans-serif;
   color: #8b9094;
 }
 
@@ -56,11 +59,25 @@
 
 #footer .input-wrapper {
   display: flex;
+  margin-right: 15px;
 }
 
 #footer form textarea {
-  height: 100px;
-  width: 100%;
+  height: 100%;
+  width: calc(100% - 15px);
+}
+
+#footer .links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: space-between;
+}
+
+#footer .links span {
+  width: 50%;
+  padding: 10px;
 }
 
 #container {
@@ -129,7 +146,6 @@ button {
   display: flex;
   flex-direction: column;
   flex: 1 40%;
- 
 }
 
 #leftcolumn {
@@ -139,19 +155,14 @@ button {
   align-items: flex-start;
   flex-wrap: wrap;
 }
-.columnblock{
+.columnblock {
   border: 1px solid black;
 }
-#continuereading{
-height: 40px;
-width: 70px;
+#continuereading {
+  height: 40px;
+  width: 70px;
 }
 
-.rightcolumnblock{
-border: 1px solid black;
+.rightcolumnblock {
+  border: 1px solid black;
 }
-
-
-
-
-
