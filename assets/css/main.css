@@ -2,9 +2,65 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "SquareSarif";
+  src: url("../fonts/SquareSerif_Bold.ttf") format("truetype");
+}
+
+#container {
+  margin: 0 20%;
+}
+
+#container .main-text {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  font-family: SquareSarif;
+  color: #ed786a;
+  text-shadow: 1px 3px #e5e5e5;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+
+#container .sub-text {
+  letter-spacing: 1.5px;
+  font-weight: 550;
+  font-size: 10px;
+  color: #8b9094;
+  font-family: sans-serif;
+}
+
 #header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  height: 200px;
+  border-bottom: solid 1px #8b90948c;
+}
+
+#footer .content {
+  display: flex;
+  flex-direction: row;
+}
+
+#footer h1 {
+  font-weight: 300;
+  font-family: sans-serif;
+  color: #8b9094;
+}
+
+#footer h1 strong {
+  font-weight: bold;
+}
+
+#footer .input-wrapper {
+  display: flex;
+}
+
+#footer form textarea {
   height: 100px;
-  border: solid 1px black;
+  width: 100%;
 }
 
 #container {
