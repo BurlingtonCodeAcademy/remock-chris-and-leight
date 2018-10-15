@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "SquareSarif";
   src: url("../fonts/SquareSerif_Bold.ttf") format("truetype");
@@ -33,4 +37,28 @@
   text-align: center;
   height: 200px;
   border-bottom: solid 1px #8b90948c;
+}
+
+#footer .content {
+  display: flex;
+  flex-direction: row;
+}
+
+#footer h1 {
+  font-weight: 300;
+  font-family: sans-serif;
+  color: #8b9094;
+}
+
+#footer h1 strong {
+  font-weight: bold;
+}
+
+#footer .input-wrapper {
+  display: flex;
+}
+
+#footer form textarea {
+  height: 100px;
+  width: 100%;
 }
