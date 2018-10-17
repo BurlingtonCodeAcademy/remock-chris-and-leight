@@ -18,7 +18,7 @@ body {
 
 #container .main-text {
   font-size: 3rem;
-  padding-bottom: 1rem;
+  margin-bottom: 20px;
   font-family: SquareSarif;
   color: #ed786a;
   text-shadow: 1px 3px #e5e5e5;
@@ -42,6 +42,7 @@ body {
   text-align: center;
   height: 200px;
   border-bottom: solid 1px #8b90948c;
+  padding-bottom: 100px;
 }
 
 #footer {
