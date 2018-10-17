@@ -12,8 +12,8 @@ body {
   src: url("../fonts/SquareSerif_Bold.ttf") format("truetype");
 }
 
-#homepagebody{
-font-family: sans-serif;
+#homepagebody {
+  font-family: sans-serif;
 }
 #container {
   margin: 0 20%;
@@ -53,6 +53,7 @@ font-family: sans-serif;
   color: #888988;
   padding: 50px 20%;
   background-color: #f0f0f0;
+  margin-top: 100px;
 }
 
 #footer .content {
@@ -145,7 +146,7 @@ font-family: sans-serif;
 }
 
 .btn {
-  height: 60px;
+  height: 40px;
   width: auto;
   margin-top: 15px;
   border-radius: 3px;
@@ -229,14 +230,14 @@ button {
   justify-content: space-around;
 }
 
-.topic{
-font-style:bold;
-color: grey
+.topic {
+  font-style: bold;
+  color: grey;
 }
 
-#continuereading1{
-border-bottom: 1px grey solid;
-margin-bottom: 10px;
+#continuereading1 {
+  border-bottom: 1px grey solid;
+  margin-bottom: 10px;
 }
 #aliens {
   display: flex;
@@ -244,32 +245,27 @@ margin-bottom: 10px;
   align-content: flex-start;
   flex-direction: row;
   align-items: space-between;
- 
 }
 
-#subject1{
-margin-top: 20px;
+#subject1 {
+  margin-top: 20px;
 }
-#subject{
-border-top: 1px solid grey;
-}
-
-.datebutton{
-margin-top: 10px;
+#subject {
+  border-top: 1px solid grey;
 }
 
-#subject{
-margin-top: 20px;
+.datebutton {
+  margin-top: 10px;
+}
+
+#subject {
+  margin-top: 20px;
 }
 
 #rightcolumn {
   display: flex;
   flex-direction: column;
   flex: 1 40%;
-
-  
-
- 
 }
 
 #leftcolumn {
@@ -278,7 +274,6 @@ margin-top: 20px;
   flex-direction: column;
   flex-wrap: wrap;
   margin-right: 10px;
-
 }
 .columnblock {
   border: 1px solid black;
@@ -288,38 +283,25 @@ margin-top: 20px;
   width: 70px;
 }
 
-#blankimage{
-border: black solid 1px;
-height: 200px;
+#blankimage {
+  border: black solid 1px;
+  height: 200px;
 }
 
-.anotherpostimage{
-border: black solid 1px;
-height: 100px;
-width: 100px;
+.anotherpostimage {
+  border: black solid 1px;
+  height: 100px;
+  width: 100px;
 }
 
-.columnblockpic{
-border-top: grey 1px solid;
-margin-top: 10px;
+.columnblockpic {
+  border-top: grey 1px solid;
+  margin-top: 10px;
 }
 
-.columnblock{
-border-bottom: 1px grey solid;
+.columnblock {
+  border-bottom: 1px grey solid;
 }
-
-
-
-  
-
-
-
-
-
-
-
-
-
 
 .rightcolumnblock {
   border: 1px solid black;
