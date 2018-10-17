@@ -144,7 +144,7 @@ font-family: sans-serif;
 }
 
 .btn {
-  height: 60px;
+  height: 40px;
   width: auto;
   margin-top: 15px;
   border-radius: 3px;
@@ -282,9 +282,7 @@ margin-top: 20px;
 .columnblock {
   border: 1px solid black;
 }
-#continuereading {
-  height: 40px;
-  width: 70px;
+
 }
 
 #blankimage{
